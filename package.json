@@ -47,7 +47,7 @@
     "test": "jest",
     "test:watch": "yarn test -- --watch",
     "prepublish": "yarn clean && yarn build",
-    "postinstall": "cd ./node_modules/my-forked-project && npm install && npm run build"
+    "postinstall": "cd ./node_modules/babel-plugin-styled-components && npm install && npm run build"
   },
   "keywords": [
     "styled-components",
